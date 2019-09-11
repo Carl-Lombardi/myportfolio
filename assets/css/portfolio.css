@@ -90,12 +90,6 @@ body {
     margin-top: 50px;
   }
 
-  .paragraph .photo {
-    float: right;
-    position: relative;
-    transform: rotate(90deg);
-  }
-
   .projecttitle {
     display: block;
     color: #c8c8c8;
@@ -103,7 +97,8 @@ body {
     font-size: 28px;
     font-weight: bold;
     position: relative;
-    float: right;
+    text-align: center;
+    margin-top: 30px;
   }
 
   .projecttext {
@@ -114,10 +109,12 @@ body {
     color: #c8c8c8;
     line-height: 20px;
     float: right;
+    text-align: center;
+    margin-top: 30px;
   }
 
-  .projectphoto {
-    margin-top: 30px;
+  .project1, .projectphoto {
+    float: right;
   }
 
   .project1, .project2, .project3 {
@@ -146,4 +143,3 @@ body {
   }
 
   
-
