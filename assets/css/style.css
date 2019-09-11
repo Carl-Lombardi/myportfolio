@@ -71,7 +71,6 @@ body {
   .buttons {
     position: relative;
     margin-top: 30px;
-    position: relative;
 }
 
 #resume, #github, #portfolio {
@@ -95,6 +94,35 @@ body {
     float: right;
     position: relative;
     transform: rotate(90deg);
+  }
+
+  .projecttitle {
+    display: block;
+    color: #c8c8c8;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    position: relative;
+    float: right;
+  }
+
+  .projecttext {
+    line-height: 1.4;
+    font-family: 'Open Sans', sans-serif;
+    text-align: inherit;
+    font-size: 14px;
+    color: #c8c8c8;
+    line-height: 20px;
+    float: right;
+  }
+
+  .projectphoto {
+    margin-top: 30px;
+  }
+
+  .project1, .project2, .project3 {
+    width: 33.33%;
+
   }
 
   #footer {
