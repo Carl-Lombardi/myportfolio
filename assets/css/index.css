@@ -6,9 +6,9 @@ html, body {
 
 p {
   line-height: 1.4;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   text-align: inherit;
-  font-size: 16px;
+  font-size: 14px;
   color: #c8c8c8;
   line-height: 20px;
 }
@@ -89,7 +89,7 @@ li a {
 
 #box2 {
   padding: 0 0 50px 5px;
-  border-top: 1px solid #c8c8c8;
+  border-top: .25px solid #c8c8c8;
   position: relative;
   background: #282828;
   margin-top: 10px;
@@ -104,14 +104,14 @@ li a {
   display: block;
   color: #c8c8c8;
   font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   position: relative;
 }
 
 #designp, #techp, #skillsp {
   color: #c8c8c8;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 12px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 14px;
   margin-right: 25px;
 }
 
