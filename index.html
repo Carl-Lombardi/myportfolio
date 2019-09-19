@@ -3,7 +3,10 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Carl Lombardi Portfolio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Rock+Salt&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
@@ -12,50 +15,83 @@
 </head>
 
 <body>
-  <div class="toolbar">
-  <div class="content">
- </div>
-<div class="container">
-  <ul>
-    <li id="active">Carl H. Lombardi</li>
-    <li><a href="./assets/documents/Resume.pdf" download="Resume.pdf">Download My Resume</a></li>
-    <li><a href="https://www.github.com/Carl-Lombardi" onclick="window.open(this.href); return false;">Github</a></li>
-    <li><a href="https://www.linkedin.com/in/carl-lombardi/" onclick="window.open(this.href); return false;">LinkedIn</a></li>
-    <li><a href ="portfolio.html" id="portfolio">My Portfolio</a></li>
-  </ul>
-    </div>
-</div>
-     
+
+    <nav class="navbar">
         <div class="container">
-          <div id="box">
-        <h2 id="tagline">I Turn Design Prototypes into Tangible Results</h2>
-        <img class="photo" src="./assets/images/face.jpg" alt="Carl" />
-        <p class="first">Welcome to my portfolio website. My name is Carl Lombardi and I am an aspiring full-stack developer, aiming to bring a fresh perspective to the industry. I began my career in the insurance field, working over nine years at American International Group in the Excess Casualty Claims department. After departing from AIG, I have decided to make a career change into development.</p>
-        <p>I have recently graduated from Rutgers Full Stack Development Bootcamp and am ready for my next challenge. I am a 2009 graduate of Fairfield University in Fairfield, CT, with a B.A. in English/Journalism. I spent the summers of 2005 and 2006 as a play-by-play and color commentator for the Bridgeport Bluefish of the Atlantic League of Professional Baseball on WVOF. In 2006, I was a member of the broadcast team for the 2006 ALPB All Star Game from the Ballpark at Harbor Yard in Bridgeport, CT.</p>
+      <span class="navbarbrand">Carl H. Lombardi</span>
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+            <a href="./assets/documents/Resume.pdf" download="Resume.pdf">Download My Resume</a>
+        </li>
+        <li class="nav-item">
+            <a href="https://www.github.com/Carl-Lombardi" onclick="window.open(this.href); return false;">Github</a>
+        </li>
+        <li class="nav-item">
+            <a href="https://www.linkedin.com/in/carl-lombardi/" onclick="window.open(this.href); return false;">LinkedIn</a>
+        </li>
+        <li class="nav-item">
+            <a href ="portfolio.html" id="portfolio">My Portfolio</a>
+        </li>
+        </div>
       </div>
+    </nav>
 
-      <div id="box2">
-      <div class="designdiv">
-        <h3 id="design">Design Philosophy</h3>
-        <p id="designp">When it comes to my personal design philosophy, my main goal is to "do more with less".
-        I believe the best websites feature a clean UI which allows even non-technical people to be comfortable and conduct business. </p>
+    <div class="container">
+        <div class="box">
+          <div class="row">
+            <div class="col">
+              <h1>I Turn Design Prototypes into Tangible Results</h1>
+            <div class="paragraph">
+                <img class="photo" src="assets/images/face.jpg" alt="Carl" />
+              </div>
+              <div class="col">
+                <p>Welcome to my portfolio website. My name is Carl Lombardi and I am an aspiring full-stack developer, aiming to bring a fresh perspective to the industry. I began my career in the insurance field, working over nine years at American International Group in the Excess Casualty Claims department. After departing from AIG, I have decided to make a career change into development.</p>
+                <p>I have recently graduated from Rutgers Full Stack Development Bootcamp and am ready for my next challenge. I am a 2009 graduate of Fairfield University in Fairfield, CT, with a B.A. in English/Journalism. I spent the summers of 2005 and 2006 as a play-by-play and color commentator for the Bridgeport Bluefish of the Atlantic League of Professional Baseball on WVOF. In 2006, I was a member of the broadcast team for the 2006 ALPB All Star Game from the Ballpark at Harbor Yard in Bridgeport, CT</p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="techdiv">
-        <h3 id="tech">Technology Skills</h3>
-        <p id="techp"> I have gained experience with JavaScript, HTML5, CSS3, Node.js, jQuery, MySQL, MongoDB, Github, Bootstrap, AJAX, JSON, REST,
-            React.js, APIs, Heroku, Firebase, ReactJS., Microsoft Suite, Git</p>
+
+        <div class="box2">
+          <div class="row">
+            <div class="col">
+                <div class="designdiv">
+                    <h3>Design Philosophy</h3>
+                    <p id="designp">When it comes to my personal design philosophy, my main goal is to "do more with less".
+                    I believe the best websites feature a clean UI which allows even non-technical people to be comfortable and conduct business. </p>
+                    </div>
+                    <div class="techdiv">
+                        <h3>Technology Skills</h3>
+                    <p id="techp"> I have gained experience with JavaScript, HTML5, CSS3, Node.js, jQuery, MySQL, MongoDB, Github, Bootstrap, AJAX, JSON, REST,
+                        React.js, APIs, Heroku, Firebase, ReactJS., Microsoft Suite, Git</p>
+                    </div>
+                    <div class="skillsdiv">
+                        <h3>People Skills</h3>
+                    <p id="skillsp">Beyond the hard technology skills and design philosophy developed during Bootcamp, my general approach is people first. Whether I am working as part of a team in a business or on my own, I believe in bringing a postive, hard-working attitude to any job or task. </p>
+                    </div>
+                  </div>
+            </div>
+          </div>
         </div>
-        <div class="skillsdiv">
-        <h3 id="skills">People Skills</h3>
-        <p id="skillsp">Beyond the hard technology skills and design philosophy developed during Bootcamp, my general approach is people first. Whether I am working as part of a team in a business or on my own, I believe in bringing a postive, hard-working attitude to any job or task. </p>
-        </div>
-      </div>
     
-
-  <div id ="footer">
-    ©Copyright 2019 Carl H. Lombardi
-    </div>
-  </div>
+        <footer>
+            <div class="row">
+              <div class="col text-center">
+                <p>©2019 Carl H. Lombardi</p>
+              </div>
+            </div>
+          </div>
+        </footer>
+ 
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+</script>
     
 </body>
 

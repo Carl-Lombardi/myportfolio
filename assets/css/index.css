@@ -1,14 +1,6 @@
 html, body {
-  height: 100%;
   margin: 0;
   background-color: #282828;
-  position: relative;
-}
-
-body {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
 }
 
 p {
@@ -18,19 +10,6 @@ p {
   font-size: 14px;
   color: #c8c8c8;
   line-height: 20px;
-}
-
-.toolbar {
-  margin: auto;
-  top: 0;
-  width: 960px;
-  background: #282828;
-}
-
-.content {
-  width: 960px;
-  flex: 1 0 auto;
-  padding: 20px;
 }
 
 ul {
@@ -48,14 +27,19 @@ li {
 li a {
   display: block;
   color: #c8c8c8;
-  padding: 40px 0 40px 40px;
+  padding: 0 10px;
   margin: 0;
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
   position: relative;
 }
 
-#active {
+.navbar {
+  background-color: #282828;
+}
+
+.navbarbrand {
   display: block;
   background-color: #282828;
   color: #c8c8c8;
@@ -68,30 +52,25 @@ li a {
 .container {
   max-width: 960px;
   margin: auto;
-  overflow: hidden;
-  display: block;
-  position: relative;
-  padding-bottom: 20px;
 }
 
-#box {
+
+.box2 {
   position: relative;
   background: #282828;
-  margin-top: 10px;
+  margin-top: 40px;
   padding: 0 0 50px 5px;
 }
 
-#tagline {
+h1 {
   display: block;
   color: #c8c8c8;
   font-family: 'Open Sans', sans-serif;
   font-size: 28px;
   font-weight: bold;
   position: relative;
-}
-
-.first {
-  width: 900px;
+  margin-bottom: 30px;
+  margin-top: 15px;
 }
 
 .photo {
@@ -100,25 +79,21 @@ li a {
   float: left;
 }
 
-#box2 {
-  padding: 0 0 50px 5px;
-  border-top: .25px solid #c8c8c8;
+h3 {
+  display: block;
+  color: #c8c8c8;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
   position: relative;
-  background: #282828;
-  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-top: 15px;
+
 }
 
 .designdiv, .techdiv, .skillsdiv {
   float: left;
   width: 33.33%;
-}
-
-#design, #tech, #skills {
-  display: block;
-  color: #c8c8c8;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  position: relative;
 }
 
 #designp, #techp, #skillsp {
@@ -128,14 +103,22 @@ li a {
   margin-right: 25px;
 }
 
-#footer {
-  position: absolute;
-  height: 20px;
+footer {
+  position: fixed;
+  height: 30px;
   bottom: 0;
-  width: 960px;
+  width: 100%;
+  margin: auto;
   background-color: #282828;
-  color: #ddd;
-  font-size: 10px;
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
+  border-top-style: solid;
+  border-width: 1px;
+  border-color: #c8c8c8;
+  padding: 10px 0;
+}
+
+footer p {
+  color: #cccccc;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.7em;
+  margin: 0;
 }
